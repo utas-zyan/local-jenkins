@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  jenkins:
+    # image: digitech-docker-build.itt.aws.odev.com.au/jenkins:lts
+    image: dockerhub.itt.aws.odev.com.au/jenkins/jenkins:lts
+    container_name: jenkins
+    env_file:
+      - .env
+    ports:
+      - "8080:8080"
+      - "50000:50000"
+    volumes:
+      - ./jenkins_data:/var/jenkins_home
+    restart: unless-stopped

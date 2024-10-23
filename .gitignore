@@ -1,0 +1,22 @@
+.history
+# Ignore Docker-related files
+*.log
+*.pid
+*.sock
+*.swp
+
+# Ignore Jenkins data directory
+data/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache files if using Python scripts
+__pycache__/
+*.py[cod]
+
+# Ignore environment files
+.env
+jenkins_data*
+
