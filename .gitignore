@@ -21,3 +21,4 @@ __pycache__/
 jenkins_data*
 jenkins_data_temp
 manual_temp
+jenkins_data_jobs
