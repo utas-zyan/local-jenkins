@@ -3,7 +3,7 @@ version: '3.8'
 services:
   jenkins:
     # image: digitech-docker-build.itt.aws.odev.com.au/jenkins:lts
-    image: dockerhub.itt.aws.odev.com.au/jenkins/jenkins:lts
+    image: dockerhub.itt.aws.odev.com.au/jenkins/jenkins:2.387.3
     container_name: jenkins
     env_file:
       - .env
