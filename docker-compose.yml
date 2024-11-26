@@ -4,7 +4,9 @@ services:
   jenkins:
     # image: digitech-docker-build.itt.aws.odev.com.au/jenkins:lts
     # image: jenkins/jenkins:latest
-    image: local-jenkins
+    build:
+      context: docker
+      dockerfile: Dockerfile
     container_name: jenkins
     user: jenkins
     env_file:
@@ -17,5 +19,4 @@ services:
     volumes:
       - ./jenkins_data:/var/jenkins_home
       - ./jenkins_data_jobs:/var/jenkins_home/jobs
-      - ~/.aws:/home/jenkins/.aws
     restart: unless-stopped
