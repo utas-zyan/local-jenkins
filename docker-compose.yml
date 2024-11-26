@@ -3,14 +3,19 @@ version: '3.8'
 services:
   jenkins:
     # image: digitech-docker-build.itt.aws.odev.com.au/jenkins:lts
-    image: dockerhub.itt.aws.odev.com.au/jenkins/jenkins:2.277.4-lts-alpine #jenkins:2.387.3
+    # image: jenkins/jenkins:latest
+    image: local-jenkins
     container_name: jenkins
+    user: jenkins
     env_file:
       - .env
+    environment:
+      - AWS_PROFILE=digi-nonprod
     ports:
       - "8080:8080"
       - "50000:50000"
     volumes:
       - ./jenkins_data:/var/jenkins_home
       - ./jenkins_data_jobs:/var/jenkins_home/jobs
+      - ~/.aws:/home/jenkins/.aws
     restart: unless-stopped

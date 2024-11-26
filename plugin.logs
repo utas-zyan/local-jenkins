@@ -1,0 +1,255 @@
+peline: Declarative Pipeline: DeclarativeVersion
+2.2218.v56d0cda_37c72 
+
+inlcudes
+----------
+Structs	 Success
+Pipeline: Step API	 Success
+bouncycastle API	 Success
+Credentials	 Success
+Plain Credentials	 Success
+Variant	 Success
+SSH Credentials	 Success
+Credentials Binding	 Pending
+Ionicons API	 Pending
+Pipeline: SCM Step	 Pending
+ASM API	 Pending
+SCM API	 Pending
+Caffeine API	 Pending
+Script Security	 Pending
+Pipeline: API	 Pending
+Pipeline: Supporting APIs	 Pending
+Pipeline: Groovy	 Pending
+Pipeline: Stage Step	 Pending
+Joda Time API	 Pending
+JavaBeans Activation Framework (JAF) API	 Pending
+JAXB	 Pending
+SnakeYAML API	 Pending
+JSON Api	 Pending
+Jackson 2 API	 Pending
+Pipeline: Model API	 Pending
+Pipeline: Job	 Pending
+Pipeline: Declarative Extension Points API	 Pending
+Folders	 Pending
+Pipeline: Groovy Libraries	 Pending
+Jakarta Activation API	 Pending
+Jakarta Mail API	 Pending
+Instance Identity	 Pending
+Display URL API	 Pending
+Mailer	 Pending
+Branch API	 Pending
+Pipeline: Multibranch	 Pending
+Durable Task	 Pending
+Pipeline: Nodes and Processes	 Pending
+Pipeline: Stage Tags Metadata	 Pending
+Pipeline: Input Step	 Pending
+Apache HttpComponents Client 4.x API	 Pending
+Pipeline: Basic Steps	 Pending
+Pipeline: Declarative	 Pending
+Loading plugin extensions	 Pending
+---------------
+
+description setterVersion
+258.vcd25251271a_a_
+
+-----
+commons-lang3 v3.x Jenkins API	 Pending
+commons-text API	 Pending
+Plugin Utilities API	 Pending
+Font Awesome API	 Pending
+Bootstrap 5 API	 Pending
+JQuery3 API	 Pending
+ECharts API	 Pending
+Checks API	 Pending
+JUnit	 Pending
+Matrix Project	 Pending
+description setter	 Pending
+Loading plugin extensions	 Pending
+------
+
+
+8. Docker Pipeline
+
+----
+Authentication Tokens API	 Pending
+Docker Commons	 Pending
+Docker Pipeline	 Pending
+Loading plugin extensions	 Pending
+-----
+
+
+
+9. Docker Slaves Plugin ?? not needed?
+10. Docker plugin ?? not needed??
+Do we need?
+
+-------
+
+
+Folders 
+
+Oracle Java SE Development Kit Installer	 Pending
+Mina SSHD API :: Common	 Pending
+Mina SSHD API :: Core	 Pending
+EDDSA API	 Pending
+SSH server	 Pending
+Gson API	 Pending
+Trilead API	 Pending
+Command Agent Launcher	 Pending
+JavaMail API	 Pending
+Folder Properties	 Pending
+Loading plugin extensions	 Pending
+
+-----------
+
+Folder Properties Plugin is it there?
+Go Plugin ?? is it needed
+
+----------
+
+HTML Publisher : 1.37 
+
+------
+
+Maven IntegrationVersion
+3.24
+
+----
+Javadoc	 Pending
+JSch dependency	 Pending
+Maven Integration	 Pending
+Loading plugin extensions	 Pending
+
+
+-----
+Pipeline: GitHub 2.8
+
+OkHttp	
+ Installing
+GitHub API	 Pending
+Git client	 Pending
+Git	 Pending
+JSON Path API	 Pending
+Token Macro	 Pending
+GitHub	 Pending
+GitHub Branch Source	 Pending
+Pipeline: GitHub	 Pending
+Loading plugin extensions	 Pending
+
+-----
+
+Project Description SetterVersion
+1.2
+
+-----
+SCM Skip : 66
+
+----
+Git ParameterActive ChoicesVersion
+2.8.6
+OWASP Markup Formatter	 Success
+Active Choices	 Success
+Loading plugin extensions	
+----
+Build Name and Description SetterVersion
+2.4.3
+
+----
+Post build task
+----
+ArtifactoryVersion
+4.0.8
+
+----
+Ant	 Success
+Config File Provider	 Success
+Gradle	 Success
+Jersey 2 API	
+ Installing
+Artifactory	 Pending
+Loading plugin extensions	 Pending
+----
+
+Conditional BuildStepVersion
+1.4.3
+
+----
+Amazon EC2Version
+1751.v47818f82a_83d
+
+Node Iterator API	 Success
+Amazon Web Services SDK :: Minimal	
+ Installing
+Amazon Web Services SDK :: EC2	 Pending
+AWS Credentials	 Pending
+Amazon EC2	 Pending
+Loading plugin extensions	 Pending
+----
+
+Build TimeoutVersion
+1.33
+
+-----
+NodeJS plugin do we need?
+
+----
+Timestamper
+
+----
+Jenkins macurial do we need it?
+Jenkins subversion ? do we need it?
+
+-----
+Office 365 Connector / Power Automate workflowsVersion
+5.0.0
+
+
+-----------------------------------------------------------------
+Matrix Authorization StrategyVersion
+3.2.3
+LDAP
+Active DirectoryVersion
+2.38
+------------------------------------------------------------------
+
+=============new add================
+
+AWS Secrets Manager Credentials ProviderVersion
+1.214.va_0a_d8268d068
+credentials aws
+Source Jenkins Credentials from AWS Secrets Manager.
+11 mo ago
+
+AWS Parameter Store Build WrapperVersion
+1.2.2
+Add AWS Parameter Store values to the environment
+
+
+===========================================================================
+added: again, undocumented
+
+Parameterized TriggerVersion
+806.vf6fff3e28c3e
+SSH build Agent
+Pipeline: Multibranch with defaultsVersion
+2.1
+Job Configuration HistoryVersion
+1283.veb_dfb_00b_5ec0
+
+Blue OceanVersion
+1.27.16
+Lockable ResourcesVersion
+1327.ved786b_a_197e0
+
+===========================newly added==========================
+
+
+AWS Parameter Store Build Wrapper
+AWS Secrets Manager SecretSource
+
+Disable Job ButtonVersion
+1.v9db_352414f90 (from 2.46)
+
+
+
+==============questioning criptler?==========================

@@ -22,3 +22,4 @@ jenkins_data*
 jenkins_data_temp
 manual_temp
 jenkins_data_jobs
+docker/*.crt

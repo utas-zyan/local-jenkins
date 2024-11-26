@@ -12,6 +12,16 @@ sudo bash -c 'rsync -avrld /data/jenkins_home/ \
    --exclude config-history \
    backup
 cp /data/jenkins_home/plugins/*.jpi backup/plugins/
+rsync -av --include='*/config.xml' \
+    --exclude='*/builds/' \
+    --exclude='*/lastStable/' \
+    --exclude='*/lastSuccessful/' \
+    --exclude='*/workspace/' \
+    --exclude='*/nextBuildNumber' \
+    --exclude='*history/' \
+    --exclude='*/scm-polling.log' \
+    /data/jenkins_home/jobs/ backup/jobs/
+'
 tar -czvf jenkins_data.tar.gz -C backup .'
 openssl enc -aes-256-cbc -salt -pbkdf2 -iter 100000 -in jenkins_data.tar.gz -out jenkins_data.tar.gz.enc && rm -rf jenkins_data.tar.gz
 split -C 100M jenkins_data.tar.gz.enc jenkins_data_part_
